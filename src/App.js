@@ -38,7 +38,7 @@ class BooksApp extends React.Component {
             render = {() => (
               <div className="list-books">
                 <div className="list-books-title">
-                  <h1>MyReads</h1>
+                  <h1>My BookTrack</h1>
                 </div>
                 <BookList books={books} shelfChanger={this.shelfChanger} />
                 <div className="open-search">
